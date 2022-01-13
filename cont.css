@@ -1,0 +1,13 @@
+html,body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap; 
+    justify-content: space-between;
+}
+
+.content {
+    flex-grow: 1;
+}
